@@ -532,6 +532,16 @@ h3 {
   color: #fff;
 }
 
+.logo-event {
+  background: linear-gradient(135deg, #ff6ea8, #ffc6df);
+  color: #fff;
+}
+
+.logo-event-alt {
+  background: linear-gradient(135deg, #74c7ff, #f2bfdc);
+  color: #1e2336;
+}
+
 .footer {
   margin-top: 22px;
   padding-top: 24px;
