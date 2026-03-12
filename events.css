@@ -263,6 +263,20 @@ h3 {
   color: var(--muted);
 }
 
+.copy-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.copy-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  display: grid;
+  gap: 6px;
+  line-height: 1.7;
+}
+
 .hero-side {
   display: grid;
   gap: 16px;
