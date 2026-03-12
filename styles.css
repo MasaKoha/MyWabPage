@@ -373,6 +373,20 @@ h3 {
   display: grid;
 }
 
+.link-groups {
+  display: grid;
+  gap: 30px;
+}
+
+.link-group {
+  display: grid;
+  gap: 14px;
+}
+
+.group-title {
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+}
+
 .directory-row {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
