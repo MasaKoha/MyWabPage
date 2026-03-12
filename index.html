@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <script>
@@ -21,50 +21,60 @@
   </head>
   <body>
     <div class="page-shell">
-      <header class="hero reveal">
-        <div class="hero-mark">
-          <p class="hero-kicker">PROFILE / LINKS / 2026</p>
-          <h1>古波倉<br />正隆</h1>
-          <p class="hero-copy">
-            Unity を軸にスマホゲーム開発を続けながら、GitHub、Booth、
-            DJ mix、音源公開、配信まで活動領域を広げている個人プロフィールです。
-          </p>
-        </div>
-        <div class="hero-side">
-          <div class="fact-panel">
-            <p class="panel-label">Base</p>
-            <ul class="fact-list">
-              <li><span>氏名</span><strong>古波倉 正隆 / Masataka Kohagura</strong></li>
-              <li><span>生年月日</span><strong>1988.05.23</strong></li>
-              <li><span>出身</span><strong>沖縄県那覇市</strong></li>
-              <li><span>居住</span><strong>東京都世田谷区</strong></li>
-              <li><span>主領域</span><strong>Unity / C# / DJ / Streaming</strong></li>
-            </ul>
-          </div>
-          <div class="badge-row" aria-label="活動タグ">
-            <span>Unity</span>
-            <span>Creator</span>
-            <span>DJ</span>
-            <span>Tokyo</span>
-          </div>
-        </div>
+      <header class="topbar reveal">
+        <a class="brand" href="#top">Masataka Kohagura</a>
+        <nav class="topnav" aria-label="Section navigation">
+          <a href="#profile">Profile</a>
+          <a href="#career">Career</a>
+          <a href="#links">Links</a>
+        </nav>
       </header>
 
-      <main>
-        <section class="split-section reveal">
-          <div class="section-heading">
-            <p class="panel-label">Summary</p>
-            <h2>プロフィール要約</h2>
+      <main id="top">
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Personal Web Page</p>
+            <h1>古波倉正隆</h1>
+            <p class="hero-subtitle">Masataka Kohagura</p>
+            <p class="hero-text">
+              Unity を軸にスマホゲーム開発を続けながら、GitHub、Booth、DJ mix、
+              音源公開、配信まで活動領域を広げている個人プロフィールです。
+            </p>
           </div>
-          <div class="summary-blocks">
-            <article class="note-card">
+
+          <div class="hero-aside">
+            <article class="snapshot-card">
+              <p class="section-tag">Snapshot</p>
+              <ul class="snapshot-list">
+                <li><span>氏名</span><strong>古波倉 正隆 / Masataka Kohagura</strong></li>
+                <li><span>生年月日</span><strong>1988.05.23</strong></li>
+                <li><span>出身</span><strong>沖縄県那覇市</strong></li>
+                <li><span>居住</span><strong>東京都世田谷区</strong></li>
+              </ul>
+            </article>
+            <div class="chip-row" aria-label="Activity tags">
+              <span>Unity</span>
+              <span>Out-game</span>
+              <span>DJ</span>
+              <span>Freelance</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="profile" class="section reveal">
+          <div class="section-head">
+            <p class="eyebrow">Profile</p>
+            <h2>静かに整理して、<br />必要なことだけを前に出す。</h2>
+          </div>
+          <div class="profile-grid">
+            <article class="info-card large">
               <h3>人物像</h3>
               <p>
                 技術とカルチャーを切り分けずに扱っていて、コードを書くこと、
                 配布すること、DJ をすること、配信することが同じページに並ぶ構成です。
               </p>
             </article>
-            <article class="note-card accent-card">
+            <article class="info-card accent">
               <h3>経歴の軸</h3>
               <p>
                 2016年にゲーム会社へ新卒入社。スマホゲームのアウトゲーム開発を強みとし、
@@ -75,66 +85,72 @@
           </div>
         </section>
 
-        <section id="career" class="career-section reveal">
-          <div class="section-heading">
-            <p class="panel-label">Career</p>
+        <section id="career" class="section reveal">
+          <div class="section-head">
+            <p class="eyebrow">Career</p>
             <h2>経歴</h2>
           </div>
-          <div class="career-grid">
-            <article class="career-card">
-              <p class="career-year">2016</p>
-              <h3>ゲーム会社へ新卒入社</h3>
-              <p>
-                スマホゲームのアウトゲーム開発を主軸にキャリアを開始。
-                Unity を使ったアウトゲーム基盤開発からアプリ開発までを
-                得意領域として積み上げた時期です。
-              </p>
+          <div class="timeline">
+            <article class="timeline-item">
+              <p class="timeline-year">2016</p>
+              <div class="timeline-body">
+                <h3>ゲーム会社へ新卒入社</h3>
+                <p>
+                  スマホゲームのアウトゲーム開発を主軸にキャリアを開始。
+                  Unity を使ったアウトゲーム基盤開発からアプリ開発までを
+                  得意領域として積み上げた時期です。
+                </p>
+              </div>
             </article>
-            <article class="career-card">
-              <p class="career-year">2018-2019</p>
-              <h3>配信系アプリの開発に従事</h3>
-              <p>
-                配信系アプリの開発に従事。Unity を用いた開発領域を、
-                ゲーム以外の体験にも広げた時期として整理しています。
-              </p>
+            <article class="timeline-item">
+              <p class="timeline-year">2018-2019</p>
+              <div class="timeline-body">
+                <h3>配信系アプリの開発に従事</h3>
+                <p>
+                  配信系アプリの開発に従事。Unity を用いた開発領域を、
+                  ゲーム以外の体験にも広げた時期として整理しています。
+                </p>
+              </div>
             </article>
-            <article class="career-card">
-              <p class="career-year">2019-現在</p>
-              <h3>フリーランスとして活動</h3>
-              <p>
-                2019年からフリーランスとして活動。開発案件に加えて、GitHub、Booth、
-                Mixcloud、SoundCloud、Twitch などで個人の制作物や活動も継続しています。
-              </p>
+            <article class="timeline-item">
+              <p class="timeline-year">2019-現在</p>
+              <div class="timeline-body">
+                <h3>フリーランスとして活動</h3>
+                <p>
+                  2019年からフリーランスとして活動。開発案件に加えて、GitHub、Booth、
+                  Mixcloud、SoundCloud、Twitch などで個人の制作物や活動も継続しています。
+                </p>
+              </div>
             </article>
           </div>
         </section>
 
-        <section id="urls" class="url-section reveal">
-          <div class="section-heading">
-            <p class="panel-label">Direct URLs</p>
+        <section id="links" class="section reveal">
+          <div class="section-head">
+            <p class="eyebrow">Links</p>
             <h2>公開URL</h2>
           </div>
-          <div class="url-list">
-            <article class="url-card">
-              <p class="url-label">Facebook</p>
-              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                https://www.facebook.com/
+          <div class="directory">
+            <article class="directory-row">
+              <p class="directory-label">Facebook</p>
+              <a href="https://www.facebook.com/masataka.kohagura" target="_blank" rel="noreferrer">
+                https://www.facebook.com/masataka.kohagura
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">X</p>
+            <article class="directory-row">
+              <p class="directory-label">X</p>
               <a href="https://twitter.com/m4s4k0h4" target="_blank" rel="noreferrer">
                 https://twitter.com/m4s4k0h4
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">YouTube</p>
+            <article class="directory-row">
+              <p class="directory-label">YouTube</p>
               <a href="https://www.youtube.com/@masakoha" target="_blank" rel="noreferrer">
                 https://www.youtube.com/@masakoha
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">DJ mix 保管庫</p>
+            <article class="directory-row">
+              <p class="directory-label">DJ mix 保管庫</p>
               <a
                 href="https://www.youtube.com/playlist?list=PL78D5_0yv4amukF4teaQAIPfXIDjkSBw8"
                 target="_blank"
@@ -143,38 +159,38 @@
                 https://www.youtube.com/playlist?list=PL78D5_0yv4amukF4teaQAIPfXIDjkSBw8
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">Mixcloud</p>
+            <article class="directory-row">
+              <p class="directory-label">Mixcloud</p>
               <a href="https://www.mixcloud.com/masakoha523/" target="_blank" rel="noreferrer">
                 https://www.mixcloud.com/masakoha523/
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">SoundCloud</p>
+            <article class="directory-row">
+              <p class="directory-label">SoundCloud</p>
               <a href="https://soundcloud.com/masakoha" target="_blank" rel="noreferrer">
                 https://soundcloud.com/masakoha
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">GitHub</p>
+            <article class="directory-row">
+              <p class="directory-label">GitHub</p>
               <a href="https://github.com/MasaKoha" target="_blank" rel="noreferrer">
                 https://github.com/MasaKoha
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">Booth</p>
+            <article class="directory-row">
+              <p class="directory-label">Booth</p>
               <a href="https://masakoha.booth.pm/" target="_blank" rel="noreferrer">
                 https://masakoha.booth.pm/
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">Twitch</p>
+            <article class="directory-row">
+              <p class="directory-label">Twitch</p>
               <a href="https://www.twitch.tv/masakoha523" target="_blank" rel="noreferrer">
                 https://www.twitch.tv/masakoha523
               </a>
             </article>
-            <article class="url-card">
-              <p class="url-label">DJ機材貸出サービス</p>
+            <article class="directory-row">
+              <p class="directory-label">DJ機材貸出サービス</p>
               <a
                 href="https://docs.google.com/document/d/1VRAwmV4dAuh36Fnl9NR8fek6LypxKzTwxIHubT-qUs0/edit?usp=sharing"
                 target="_blank"
@@ -188,7 +204,7 @@
       </main>
 
       <footer class="footer reveal">
-        <p>ページ内のリンクはタイトルではなく URL 本文を直接表示する構成に変更しています。</p>
+        <p>スマートフォンでは余白と文字サイズを詰めて、各セクションが縦に落ちる構成にしています。</p>
       </footer>
     </div>
 
