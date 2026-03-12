@@ -1,14 +1,14 @@
 :root {
-  --bg: #f7eeea;
-  --bg-soft: #f2e5df;
-  --paper: rgba(255, 251, 247, 0.9);
-  --paper-strong: #fffaf6;
-  --ink: #1d1917;
-  --muted: #665b54;
-  --line: rgba(29, 25, 23, 0.12);
-  --accent: #d8b4ae;
-  --accent-strong: #af7d74;
-  --shadow: 0 24px 70px rgba(69, 46, 38, 0.1);
+  --bg: #ffc9ea;
+  --bg-soft: #fff7fc;
+  --paper: rgba(255, 248, 252, 0.92);
+  --paper-strong: #ffffff;
+  --ink: #352330;
+  --muted: #6e5364;
+  --line: rgba(53, 35, 48, 0.12);
+  --accent: #ffc9ea;
+  --accent-strong: #bf6d9c;
+  --shadow: 0 24px 70px rgba(96, 49, 78, 0.12);
   --radius-xl: 36px;
   --radius-lg: 28px;
   --radius-md: 20px;
@@ -28,8 +28,8 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top right, rgba(216, 180, 174, 0.34), transparent 24%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.5), transparent 22%),
+    radial-gradient(circle at top right, rgba(255, 201, 234, 0.9), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.62), transparent 22%),
     linear-gradient(135deg, var(--bg), var(--bg-soft));
 }
 
@@ -38,8 +38,8 @@ body::before {
   position: fixed;
   inset: 0;
   background:
-    linear-gradient(rgba(29, 25, 23, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(29, 25, 23, 0.035) 1px, transparent 1px);
+    linear-gradient(rgba(53, 35, 48, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(53, 35, 48, 0.035) 1px, transparent 1px);
   background-size: 30px 30px;
   mask-image: radial-gradient(circle at center, black 44%, transparent 94%);
   pointer-events: none;
@@ -83,7 +83,7 @@ a {
   gap: 16px;
   padding: 18px 22px;
   border-radius: 999px;
-  background: rgba(255, 250, 246, 0.7);
+  background: rgba(255, 247, 252, 0.76);
   backdrop-filter: blur(16px);
 }
 
@@ -114,9 +114,9 @@ a {
   align-items: center;
   min-height: 38px;
   padding: 8px 14px;
-  border: 1px solid rgba(29, 25, 23, 0.08);
+  border: 1px solid rgba(53, 35, 48, 0.08);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.52);
+  background: rgba(255, 255, 255, 0.66);
   text-decoration: none;
   font-size: 0.92rem;
 }
@@ -151,7 +151,7 @@ main {
   right: 22px;
   width: 140px;
   height: 140px;
-  border: 1px solid rgba(175, 125, 116, 0.34);
+  border: 1px solid rgba(191, 109, 156, 0.34);
   border-radius: 50%;
 }
 
@@ -163,7 +163,7 @@ main {
   width: 90px;
   height: 12px;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--accent-strong), rgba(175, 125, 116, 0.08));
+  background: linear-gradient(90deg, var(--accent-strong), rgba(191, 109, 156, 0.08));
 }
 
 .hero-copy,
@@ -257,8 +257,8 @@ h3 {
 .snapshot-card {
   padding: 22px;
   border-radius: var(--radius-lg);
-  background: rgba(255, 250, 246, 0.84);
-  border: 1px solid rgba(29, 25, 23, 0.08);
+  background: rgba(255, 245, 251, 0.92);
+  border: 1px solid rgba(53, 35, 48, 0.08);
 }
 
 .snapshot-list {
@@ -273,7 +273,7 @@ h3 {
   display: grid;
   gap: 3px;
   padding-top: 12px;
-  border-top: 1px solid rgba(29, 25, 23, 0.08);
+  border-top: 1px solid rgba(53, 35, 48, 0.08);
 }
 
 .snapshot-list li:first-child {
@@ -298,8 +298,8 @@ h3 {
   min-height: 36px;
   padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(29, 25, 23, 0.08);
-  background: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(53, 35, 48, 0.08);
+  background: rgba(255, 255, 255, 0.74);
   font-family: "Space Grotesk", sans-serif;
   font-size: 0.92rem;
 }
@@ -325,8 +325,8 @@ h3 {
 .info-card {
   padding: 24px;
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(29, 25, 23, 0.08);
-  background: rgba(255, 251, 247, 0.92);
+  border: 1px solid rgba(53, 35, 48, 0.08);
+  background: rgba(255, 247, 252, 0.92);
 }
 
 .info-card h3 {
@@ -339,7 +339,7 @@ h3 {
 
 .info-card.accent {
   background:
-    linear-gradient(145deg, rgba(216, 180, 174, 0.28), rgba(255, 251, 247, 0.98));
+    linear-gradient(145deg, rgba(255, 201, 234, 0.72), rgba(255, 255, 255, 0.98));
 }
 
 .timeline {
@@ -353,7 +353,7 @@ h3 {
   gap: 24px;
   align-items: start;
   padding: 20px 0;
-  border-top: 1px solid rgba(29, 25, 23, 0.08);
+  border-top: 1px solid rgba(53, 35, 48, 0.08);
 }
 
 .timeline-item:first-child {
@@ -393,7 +393,7 @@ h3 {
   gap: 18px;
   align-items: start;
   padding: 18px 0;
-  border-top: 1px solid rgba(29, 25, 23, 0.08);
+  border-top: 1px solid rgba(53, 35, 48, 0.08);
 }
 
 .directory-row:first-child {
