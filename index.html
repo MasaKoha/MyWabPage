@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masakoha Web Page</title>
+    <meta
+      name="description"
+      content="Masakoha のためのシングルページ Web サイト"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Personal Web Page</p>
+        <h1>Build with clarity.<br />Ship with intent.</h1>
+        <p class="intro">
+          このページは、アイデアを形にして公開するためのシンプルなスタート地点です。
+          余白、タイポグラフィ、動きに絞って、静的サイトでも印象が残る構成にしています。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#about">About</a>
+          <a class="button secondary" href="#focus">Focus</a>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="panel panel-large">
+          <div>
+            <p class="section-label">About</p>
+            <h2>自分のページを、過不足なく。</h2>
+          </div>
+          <p>
+            過剰な装飾ではなく、伝えたいことが前に出る構成を目指しました。
+            将来的にプロフィール、作品、リンク集を追加しやすいよう、セクション単位で拡張できる作りにしています。
+          </p>
+        </section>
+
+        <section id="focus" class="grid">
+          <article class="panel">
+            <p class="section-label">01</p>
+            <h3>Identity</h3>
+            <p>
+              シンプルなコピーと大胆なレイアウトで、個人サイトの入口として機能するデザインです。
+            </p>
+          </article>
+          <article class="panel">
+            <p class="section-label">02</p>
+            <h3>Motion</h3>
+            <p>
+              スクロール時のフェードアップを加え、静的ページでも少しだけリズムを持たせています。
+            </p>
+          </article>
+          <article class="panel accent">
+            <p class="section-label">03</p>
+            <h3>Ready to extend</h3>
+            <p>
+              HTML と CSS を分離しているため、GitHub Pages でそのまま公開しやすい構成です。
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
