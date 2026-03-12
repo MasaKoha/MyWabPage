@@ -1,0 +1,7 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#000000"/>
+  <path d="M34 642H182L320 890V810L425 642H572V1000H449V813L362 957L275 803V1000H34V642Z" fill="#FF1208"/>
+  <rect x="626" y="642" width="22" height="358" fill="#F2F2F2"/>
+  <text x="700" y="790" fill="#F2F2F2" font-size="190" font-weight="900" font-family="Arial Black, Impact, sans-serif" letter-spacing="-10">ASA</text>
+  <text x="700" y="1000" fill="#F2F2F2" font-size="190" font-weight="900" font-family="Arial Black, Impact, sans-serif" letter-spacing="-10">KOHA</text>
+</svg>
