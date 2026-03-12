@@ -1,4 +1,4 @@
-# masakoha.github.io
+# www.masakoha.com
 
 静的な個人 Web ページです。`index.html` を開くだけで表示できます。
 
@@ -10,12 +10,12 @@
 
 ## Publish
 
-GitHub Pages の User Pages として公開します。
+GitHub Pages でカスタムドメイン公開します。
 
-- `https://masakoha.github.io/`
-- `https://masakoha.github.io/index.html`
+- `https://www.masakoha.com/`
+- `https://www.masakoha.com/index.html`
 
 イベントページも同じリポジトリ配下で公開します。
 
-- `https://masakoha.github.io/full-combo-legacy.html`
-- `https://masakoha.github.io/sync-dive-club.html`
+- `https://www.masakoha.com/full-combo-legacy.html`
+- `https://www.masakoha.com/sync-dive-club.html`
