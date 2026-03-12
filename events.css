@@ -238,6 +238,7 @@ h3 {
 }
 
 .hero-subtitle,
+.hero-heading,
 .hero-text,
 .meta-card strong,
 .section p,
@@ -246,6 +247,16 @@ h3 {
 .placeholder-text {
   margin: 0;
   line-height: 1.85;
+}
+
+.hero-heading {
+  margin: 0;
+  font-family: "Noto Serif JP", serif;
+  font-size: clamp(1.8rem, 5vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
 }
 
 .hero-subtitle {
